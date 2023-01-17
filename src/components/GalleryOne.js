@@ -65,22 +65,10 @@ import ImgSixtyFour from '../images/gallery-one/image-64.jpeg';
 import ImgSixtyFive from '../images/gallery-one/image-65.jpeg';
 
 const GalleryOne = [
-  {
-    id: 1,
-    src: ImgOne,
-  },
-  {
-    id: 2,
-    src: ImgTwo,
-  },
-  {
-    id: 3,
-    src: ImgThree,
-  },
-  {
-    id: 4,
-    src: ImgFour,
-  },
+  { id: 1, src: ImgOne },
+  { id: 2, src: ImgTwo },
+  { id: 3, src: ImgThree },
+  { id: 4, src: ImgFour },
   { id: 5, src: ImgFive },
   { id: 6, src: ImgSix },
   { id: 7, src: ImgSeven },

@@ -32,7 +32,7 @@ function About() {
         to accomplish that by helping to make everyone I touch, look and feel
         like their most beautiful self. Samantha Cronk, SC Beauty
       </p>
-      <section className="flex flex-row gap-1 p-8">
+      <section className="flex sm:flex-col md:flex-row gap-1 p-8 ">
         <section>
           <img
             className="max-w-full w-42 h-52 object-cover"

@@ -21,7 +21,7 @@ function SideMenu() {
             ></img>
           </section>
         </section>
-        <h1 className="text-3xl text-center uppercase text-black">
+        <h1 className="sm:text-xl md:text-3xl text-center uppercase text-black">
           SC<br></br>
           <span className="font-semibold font-namefont">Beauty</span>
         </h1>
@@ -29,6 +29,14 @@ function SideMenu() {
           className="hover:text-blue-600 smooth-transition text-xl"
           to="/scbeauty4u"
           onClick={ResetLocation}
+          style={({ isActive }) =>
+            isActive
+              ? {
+                  textDecoration: 'none',
+                  color: 'rgb(2, 209, 203)',
+                }
+              : {}
+          }
         >
           Gallery
         </NavLink>
@@ -36,6 +44,14 @@ function SideMenu() {
           className="hover:text-blue-600 smooth-transition text-xl"
           to="/about"
           onClick={ResetLocation}
+          style={({ isActive }) =>
+            isActive
+              ? {
+                  textDecoration: 'none',
+                  color: 'rgb(2, 209, 203)',
+                }
+              : {}
+          }
         >
           About
         </NavLink>
@@ -43,6 +59,14 @@ function SideMenu() {
           className="hover:text-blue-600 smooth-transition text-xl"
           to="/blog"
           onClick={ResetLocation}
+          style={({ isActive }) =>
+            isActive
+              ? {
+                  textDecoration: 'none',
+                  color: 'rgb(2, 209, 203)',
+                }
+              : {}
+          }
         >
           Pricing
         </NavLink>
@@ -50,6 +74,14 @@ function SideMenu() {
           className="hover:text-blue-600 smooth-transition text-xl"
           to="/contact"
           onClick={ResetLocation}
+          style={({ isActive }) =>
+            isActive
+              ? {
+                  textDecoration: 'none',
+                  color: 'rgb(2, 209, 203)',
+                }
+              : {}
+          }
         >
           Contact
         </NavLink>
