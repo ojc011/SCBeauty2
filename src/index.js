@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import MainPage from './components/MainPage';
 import SideMenu from './components/SideMenu';
 import About from './components/About';
+import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 //Styles
 import './index.css';
@@ -19,6 +20,7 @@ root.render(
       <Routes>
         <Route path="/travel-with-catherine" element={<MainPage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

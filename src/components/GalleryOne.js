@@ -62,6 +62,7 @@ import ImgSixtyOne from '../images/gallery-one/image-61.jpeg';
 import ImgSixtyTwo from '../images/gallery-one/image-62.jpeg';
 import ImgSixtyThree from '../images/gallery-one/image-63.jpeg';
 import ImgSixtyFour from '../images/gallery-one/image-64.jpeg';
+import ImgSixtyFive from '../images/gallery-one/image-65.jpeg';
 
 const GalleryOne = [
   {
@@ -140,5 +141,6 @@ const GalleryOne = [
   { id: 62, src: ImgSixtyTwo },
   { id: 63, src: ImgSixtyThree },
   { id: 64, src: ImgSixtyFour },
+  { id: 65, src: ImgSixtyFive },
 ];
 export default GalleryOne;
