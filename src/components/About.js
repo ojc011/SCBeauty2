@@ -1,6 +1,6 @@
 import React from 'react';
 import ImgSixtyFive from '../images/gallery-one/image-65.jpeg';
-import ImgTen from '../images/gallery-one/image-10.jpeg';
+import ImgTen from '../images/image-10.jpeg';
 
 function About() {
   return (

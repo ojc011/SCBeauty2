@@ -22,3 +22,11 @@
       transition: all ease-in-out 0.3s;
     }
 }
+
+.container .row > [class^="col"] {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  background-color: #E5EDF5;
+  border: 1px solid #C9C1D5;
+  color: #5F5F5F;
+}

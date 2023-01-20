@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 //Images
 import Facebook from '../images/facebook-icon.png';
 import Instagram from '../images/instagram-icon.png';
-import WeddingWire from '../images/gallery-one/image-10.jpeg';
+import WeddingWire from '../images/image-10.jpeg';
 import SCLogo from '../images/SCBEAUTYLOGODARK.png';
 const ResetLocation = () => window.scrollTo(0, 0);
 
@@ -57,7 +57,7 @@ function SideMenu() {
         </NavLink>
         <NavLink
           className="hover:text-blue-600 smooth-transition text-xl"
-          to="/blog"
+          to="/pricing"
           onClick={ResetLocation}
           style={({ isActive }) =>
             isActive

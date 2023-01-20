@@ -7,7 +7,6 @@ import ImgSix from '../images/gallery-one/image-6.jpeg';
 import ImgSeven from '../images/gallery-one/image-7.jpeg';
 import ImgEight from '../images/gallery-one/image-8.jpeg';
 import ImgNine from '../images/gallery-one/image-9.jpeg';
-import ImgTen from '../images/gallery-one/image-10.jpeg';
 import ImgEleven from '../images/gallery-one/image-11.jpeg';
 import ImgTwelve from '../images/gallery-one/image-12.jpeg';
 import ImgThirteen from '../images/gallery-one/image-13.jpeg';
@@ -74,7 +73,6 @@ const GalleryOne = [
   { id: 7, src: ImgSeven },
   { id: 8, src: ImgEight },
   { id: 9, src: ImgNine },
-  { id: 10, src: ImgTen },
   { id: 11, src: ImgEleven },
   { id: 12, src: ImgTwelve },
   { id: 13, src: ImgThirteen },

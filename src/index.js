@@ -18,7 +18,7 @@ root.render(
     <Router>
       <SideMenu />
       <Routes>
-        <Route path="/travel-with-catherine" element={<MainPage />} />
+        <Route path="/scbeauty4u" element={<MainPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
