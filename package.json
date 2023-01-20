@@ -20,9 +20,9 @@
   },
   "homepage": "/scbeauty4u",
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -44,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "^7.0.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.0.2",
