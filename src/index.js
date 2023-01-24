@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 //Components
-import MainPage from './components/MainPage';
+import Gallery from './components/Gallery';
 import SideMenu from './components/SideMenu';
 import About from './components/About';
 import Pricing from './components/Pricing';
@@ -18,7 +18,7 @@ root.render(
     <Router>
       <SideMenu />
       <Routes>
-        <Route path="/scbeauty4u" element={<MainPage />} />
+        <Route path="/scbeauty4u" element={<Gallery />} />
         <Route path="/about" element={<About />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />

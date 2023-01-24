@@ -8,16 +8,16 @@ function About() {
       <section className="flex flex-col items-center mt-20 font-titlefont text-2xl gap-5 text-slate-600">
         <h2 className="text-5xl text-center uppercase text-black">About</h2>
       </section>
-      <section className="flex flex-row gap-1 p-8">
+      <section className="flex flex-col sm:flex-row gap-1 p-3 ">
         <section>
           <img
-            className="max-w-full  object-cover	"
+            className="max-w-full object-cover	"
             src={ImgSixtyFive}
             alt=""
           ></img>
         </section>
       </section>
-      <p className="text-lg w-9/12">
+      <p className="text-base w-full sm:text-lg sm:w-9/12">
         Ever since I opened my eyes for the first time in this life, I have seen
         the world through a creative lens. The gift of art was bestowed on me by
         my Creator and I incorporate it in every aspect of my life from drawing,
@@ -32,19 +32,17 @@ function About() {
         to accomplish that by helping to make everyone I touch, look and feel
         like their most beautiful self. Samantha Cronk, SC Beauty
       </p>
-      <section className="flex sm:flex-col md:flex-row gap-1 p-8 ">
-        <a
-          href="https://www.weddingwire.com/biz/sc-beauty-austin/180d2c99e8efa991.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className="max-w-full w-42 h-52 object-cover"
-            src={ImgTen}
-            alt=""
-          ></img>
-        </a>
-      </section>
+      <a
+        href="https://www.weddingwire.com/biz/sc-beauty-austin/180d2c99e8efa991.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <section className="flex flex-col w-52 h-52 sm:flex-row  gap-1 p-8 ">
+          <section>
+            <img className="max-w-full object-cover" src={ImgTen} alt=""></img>
+          </section>
+        </section>
+      </a>
     </article>
   );
 }
