@@ -1,17 +1,36 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 //Images
 import Facebook from '../images/facebook-icon.png';
 import Instagram from '../images/instagram-icon.png';
 import WeddingWire from '../images/image-10.jpeg';
 import SCLogo from '../images/SCBEAUTYLOGODARK.png';
+import MenuDropDown from '../images/burger-menu.png';
+
 const ResetLocation = () => window.scrollTo(0, 0);
+
+function ToggleMenu() {
+  const HiddenMenu = document.querySelector('.main-menu');
+  HiddenMenu.classList.toggle('show-menu');
+}
+
+function RemoveMenu() {
+  const HiddenMenu = document.querySelector('.main-menu');
+  HiddenMenu.classList.remove('show-menu');
+}
 
 function SideMenu() {
   return (
-    <div className="flex flex-col min-h-screen col-span-1 items-center">
-      <div className="flex flex-col items-center fixed mt-60 font-titlefont text-2xl gap-5 text-slate-600">
+    <article className="flex flex-col min-h-screen col-span-1 items-center">
+      <section className="sm:hidden">
+        <img
+          className="MenuDropDown-icon w-max fixed cursor-pointer"
+          onClick={ToggleMenu}
+          src={MenuDropDown}
+          alt=""
+        ></img>
+      </section>
+      <section className="main-menu flex-col items-center fixed mt-60 font-titlefont text-2xl gap-5 text-slate-600 hidden sm:flex">
         <section className="flex flex-row gap-1 p-8">
           <section>
             <img
@@ -28,7 +47,10 @@ function SideMenu() {
         <NavLink
           className="hover:text-blue-600 smooth-transition text-xl"
           to="/scbeauty4u"
-          onClick={ResetLocation}
+          onClick={() => {
+            ResetLocation();
+            RemoveMenu();
+          }}
           style={({ isActive }) =>
             isActive
               ? {
@@ -43,7 +65,10 @@ function SideMenu() {
         <NavLink
           className="hover:text-blue-600 smooth-transition text-xl"
           to="/about"
-          onClick={ResetLocation}
+          onClick={() => {
+            ResetLocation();
+            RemoveMenu();
+          }}
           style={({ isActive }) =>
             isActive
               ? {
@@ -58,7 +83,10 @@ function SideMenu() {
         <NavLink
           className="hover:text-blue-600 smooth-transition text-xl"
           to="/pricing"
-          onClick={ResetLocation}
+          onClick={() => {
+            ResetLocation();
+            RemoveMenu();
+          }}
           style={({ isActive }) =>
             isActive
               ? {
@@ -73,7 +101,10 @@ function SideMenu() {
         <NavLink
           className="hover:text-blue-600 smooth-transition text-xl"
           to="/contact"
-          onClick={ResetLocation}
+          onClick={() => {
+            ResetLocation();
+            RemoveMenu();
+          }}
           style={({ isActive }) =>
             isActive
               ? {
@@ -120,8 +151,9 @@ function SideMenu() {
             ></img>
           </a>
         </section>
-      </div>
-    </div>
+        <p className="text-sm">&copy; 2023 by SC Beauty</p>
+      </section>
+    </article>
   );
 }
 

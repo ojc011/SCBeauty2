@@ -33,13 +33,17 @@ function About() {
         like their most beautiful self. Samantha Cronk, SC Beauty
       </p>
       <section className="flex sm:flex-col md:flex-row gap-1 p-8 ">
-        <section>
+        <a
+          href="https://www.weddingwire.com/biz/sc-beauty-austin/180d2c99e8efa991.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className="max-w-full w-42 h-52 object-cover"
             src={ImgTen}
             alt=""
           ></img>
-        </section>
+        </a>
       </section>
     </article>
   );
