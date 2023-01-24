@@ -5,7 +5,7 @@ import ImgTen from '../images/image-10.jpeg';
 function About() {
   return (
     <article className="flex flex-col min-h-screen col-span-2 items-center p-5">
-      <section className="flex flex-col items-center mt-20 font-titlefont text-2xl gap-5 text-slate-600">
+      <section className="flex flex-col items-center mt-20 text-2xl gap-5 text-slate-600">
         <h2 className="text-5xl text-center uppercase text-black">About</h2>
       </section>
       <section className="flex flex-col sm:flex-row gap-1 p-3 ">

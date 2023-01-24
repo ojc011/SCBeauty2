@@ -63,70 +63,137 @@ import ImgSixtyThree from '../images/gallery-one/image-63.jpeg';
 import ImgSixtyFour from '../images/gallery-one/image-64.jpeg';
 import ImgSixtyFive from '../images/gallery-one/image-65.jpeg';
 
+////
+
+import ImgOneMobile from '../images/mobileGallery/image-1.jpeg';
+import ImgTwoMobile from '../images/mobileGallery/image-2.jpeg';
+import ImgThreeMobile from '../images/mobileGallery/image-3.jpeg';
+import ImgFourMobile from '../images/mobileGallery/image-4.jpeg';
+import ImgFiveMobile from '../images/mobileGallery/image-5.jpeg';
+import ImgSixMobile from '../images/mobileGallery/image-6.jpeg';
+import ImgSevenMobile from '../images/mobileGallery/image-7.jpeg';
+import ImgEightMobile from '../images/mobileGallery/image-8.jpeg';
+import ImgNineMobile from '../images/mobileGallery/image-9.jpeg';
+import ImgElevenMobile from '../images/mobileGallery/image-11.jpeg';
+import ImgTwelveMobile from '../images/mobileGallery/image-12.jpeg';
+import ImgThirteenMobile from '../images/mobileGallery/image-13.jpeg';
+import ImgFourteenMobile from '../images/mobileGallery/image-14.jpeg';
+import ImgFifteenMobile from '../images/mobileGallery/image-15.jpeg';
+import ImgSixteenMobile from '../images/mobileGallery/image-16.jpeg';
+import ImgSeventeenMobile from '../images/mobileGallery/image-17.jpeg';
+import ImgEighteenMobile from '../images/mobileGallery/image-18.jpeg';
+import ImgNineteenMobile from '../images/mobileGallery/image-19.jpeg';
+import ImgTwentyMobile from '../images/mobileGallery/image-20.jpeg';
+import ImgTwentyOneMobile from '../images/mobileGallery/image-21.jpeg';
+import ImgTwentyTwoMobile from '../images/mobileGallery/image-22.jpeg';
+import ImgTwentyThreeMobile from '../images/mobileGallery/image-23.jpeg';
+import ImgTwentyFourMobile from '../images/mobileGallery/image-24.jpeg';
+import ImgTwentyFiveMobile from '../images/mobileGallery/image-25.jpeg';
+import ImgTwentySixMobile from '../images/mobileGallery/image-26.jpeg';
+import ImgTwentySevenMobile from '../images/mobileGallery/image-27.jpeg';
+import ImgTwentyEightMobile from '../images/mobileGallery/image-28.jpeg';
+import ImgTwentyNineMobile from '../images/mobileGallery/image-29.jpeg';
+import ImgThirtyMobile from '../images/mobileGallery/image-30.jpeg';
+import ImgThirtyOneMobile from '../images/mobileGallery/image-31.jpeg';
+import ImgThirtyTwoMobile from '../images/mobileGallery/image-32.jpeg';
+import ImgThirtyThreeMobile from '../images/mobileGallery/image-33.jpeg';
+import ImgThirtyFourMobile from '../images/mobileGallery/image-34.jpeg';
+import ImgThirtyFiveMobile from '../images/mobileGallery/image-35.jpeg';
+import ImgThirtySixMobile from '../images/mobileGallery/image-36.jpeg';
+import ImgThirtySevenMobile from '../images/mobileGallery/image-37.jpeg';
+import ImgThirtyEightMobile from '../images/mobileGallery/image-38.jpeg';
+import ImgThirtyNineMobile from '../images/mobileGallery/image-39.jpeg';
+import ImgFourtyMobile from '../images/mobileGallery/image-40.jpeg';
+import ImgFourtyOneMobile from '../images/mobileGallery/image-41.jpeg';
+import ImgFourtyTwoMobile from '../images/mobileGallery/image-42.jpeg';
+import ImgFourtyThreeMobile from '../images/mobileGallery/image-43.jpeg';
+import ImgFourtyFourMobile from '../images/mobileGallery/image-44.jpeg';
+import ImgFourtyFiveMobile from '../images/mobileGallery/image-45.jpeg';
+import ImgFourtySixMobile from '../images/mobileGallery/image-46.jpeg';
+import ImgFourtySevenMobile from '../images/mobileGallery/image-47.jpeg';
+import ImgFourtyEightMobile from '../images/mobileGallery/image-48.jpeg';
+import ImgFourtyNineMobile from '../images/mobileGallery/image-49.jpeg';
+import ImgFiftyMobile from '../images/mobileGallery/image-50.jpeg';
+import ImgFiftyOneMobile from '../images/mobileGallery/image-51.jpeg';
+import ImgFiftyTwoMobile from '../images/mobileGallery/image-52.jpeg';
+import ImgFiftyThreeMobile from '../images/mobileGallery/image-53.jpeg';
+import ImgFiftyFourMobile from '../images/mobileGallery/image-54.jpeg';
+import ImgFiftyFiveMobile from '../images/mobileGallery/image-55.jpeg';
+import ImgFiftySixMobile from '../images/mobileGallery/image-56.jpeg';
+import ImgFiftySevenMobile from '../images/mobileGallery/image-57.jpeg';
+import ImgFiftyEightMobile from '../images/mobileGallery/image-58.jpeg';
+import ImgFiftyNineMobile from '../images/mobileGallery/image-59.jpeg';
+import ImgSixtyMobile from '../images/mobileGallery/image-60.jpeg';
+import ImgSixtyOneMobile from '../images/mobileGallery/image-61.jpeg';
+import ImgSixtyTwoMobile from '../images/mobileGallery/image-62.jpeg';
+import ImgSixtyThreeMobile from '../images/mobileGallery/image-63.jpeg';
+import ImgSixtyFourMobile from '../images/mobileGallery/image-64.jpeg';
+import ImgSixtyFiveMobile from '../images/mobileGallery/image-65.jpeg';
+
 const GalleryOne = [
-  { id: 1, src: ImgOne },
-  { id: 2, src: ImgTwo },
-  { id: 3, src: ImgThree },
-  { id: 4, src: ImgFour },
-  { id: 5, src: ImgFive },
-  { id: 6, src: ImgSix },
-  { id: 7, src: ImgSeven },
-  { id: 8, src: ImgEight },
-  { id: 9, src: ImgNine },
-  { id: 11, src: ImgEleven },
-  { id: 12, src: ImgTwelve },
-  { id: 13, src: ImgThirteen },
-  { id: 14, src: ImgFourteen },
-  { id: 15, src: ImgFifteen },
-  { id: 16, src: ImgSixteen },
-  { id: 17, src: ImgSeventeen },
-  { id: 18, src: ImgEighteen },
-  { id: 19, src: ImgNineteen },
-  { id: 20, src: ImgTwenty },
-  { id: 21, src: ImgTwentyOne },
-  { id: 22, src: ImgTwentyTwo },
-  { id: 23, src: ImgTwentyThree },
-  { id: 24, src: ImgTwentyFour },
-  { id: 25, src: ImgTwentyFive },
-  { id: 26, src: ImgTwentySix },
-  { id: 27, src: ImgTwentySeven },
-  { id: 28, src: ImgTwentyEight },
-  { id: 29, src: ImgTwentyNine },
-  { id: 30, src: ImgThirty },
-  { id: 31, src: ImgThirtyOne },
-  { id: 32, src: ImgThirtyTwo },
-  { id: 33, src: ImgThirtyThree },
-  { id: 34, src: ImgThirtyFour },
-  { id: 35, src: ImgThirtyFive },
-  { id: 36, src: ImgThirtySix },
-  { id: 37, src: ImgThirtySeven },
-  { id: 38, src: ImgThirtyEight },
-  { id: 39, src: ImgThirtyNine },
-  { id: 40, src: ImgFourty },
-  { id: 41, src: ImgFourtyOne },
-  { id: 42, src: ImgFourtyTwo },
-  { id: 43, src: ImgFourtyThree },
-  { id: 44, src: ImgFourtyFour },
-  { id: 45, src: ImgFourtyFive },
-  { id: 46, src: ImgFourtySix },
-  { id: 47, src: ImgFourtySeven },
-  { id: 48, src: ImgFourtyEight },
-  { id: 49, src: ImgFourtyNine },
-  { id: 50, src: ImgFifty },
-  { id: 51, src: ImgFiftyOne },
-  { id: 52, src: ImgFiftyTwo },
-  { id: 53, src: ImgFiftyThree },
-  { id: 54, src: ImgFiftyFour },
-  { id: 55, src: ImgFiftyFive },
-  { id: 56, src: ImgFiftySix },
-  { id: 57, src: ImgFiftySeven },
-  { id: 58, src: ImgFiftyEight },
-  { id: 59, src: ImgFiftyNine },
-  { id: 60, src: ImgSixty },
-  { id: 61, src: ImgSixtyOne },
-  { id: 62, src: ImgSixtyTwo },
-  { id: 63, src: ImgSixtyThree },
-  { id: 64, src: ImgSixtyFour },
-  { id: 65, src: ImgSixtyFive },
+  { id: 1, src: ImgOne, srcMobile: ImgOneMobile },
+  { id: 2, src: ImgTwo, srcMobile: ImgTwoMobile },
+  { id: 3, src: ImgThree, srcMobile: ImgThreeMobile },
+  { id: 4, src: ImgFour, srcMobile: ImgFourMobile },
+  { id: 5, src: ImgFive, srcMobile: ImgFiveMobile },
+  { id: 6, src: ImgSix, srcMobile: ImgSixMobile },
+  { id: 7, src: ImgSeven, srcMobile: ImgSevenMobile },
+  { id: 8, src: ImgEight, srcMobile: ImgEightMobile },
+  { id: 9, src: ImgNine, srcMobile: ImgNineMobile },
+  { id: 11, src: ImgEleven, srcMobile: ImgElevenMobile },
+  { id: 12, src: ImgTwelve, srcMobile: ImgTwelveMobile },
+  { id: 13, src: ImgThirteen, srcMobile: ImgThirteenMobile },
+  { id: 14, src: ImgFourteen, srcMobile: ImgFourteenMobile },
+  { id: 15, src: ImgFifteen, srcMobile: ImgFifteenMobile },
+  { id: 16, src: ImgSixteen, srcMobile: ImgSixteenMobile },
+  { id: 17, src: ImgSeventeen, srcMobile: ImgSeventeenMobile },
+  { id: 18, src: ImgEighteen, srcMobile: ImgEighteenMobile },
+  { id: 19, src: ImgNineteen, srcMobile: ImgNineteenMobile },
+  { id: 20, src: ImgTwenty, srcMobile: ImgTwentyMobile },
+  { id: 21, src: ImgTwentyOne, srcMobile: ImgTwentyOneMobile },
+  { id: 22, src: ImgTwentyTwo, srcMobile: ImgTwentyTwoMobile },
+  { id: 23, src: ImgTwentyThree, srcMobile: ImgTwentyThreeMobile },
+  { id: 24, src: ImgTwentyFour, srcMobile: ImgTwentyFourMobile },
+  { id: 25, src: ImgTwentyFive, srcMobile: ImgTwentyFiveMobile },
+  { id: 26, src: ImgTwentySix, srcMobile: ImgTwentySixMobile },
+  { id: 27, src: ImgTwentySeven, srcMobile: ImgTwentySevenMobile },
+  { id: 28, src: ImgTwentyEight, srcMobile: ImgTwentyEightMobile },
+  { id: 29, src: ImgTwentyNine, srcMobile: ImgTwentyNineMobile },
+  { id: 30, src: ImgThirty, srcMobile: ImgThirtyMobile },
+  { id: 31, src: ImgThirtyOne, srcMobile: ImgThirtyOneMobile },
+  { id: 32, src: ImgThirtyTwo, srcMobile: ImgThirtyTwoMobile },
+  { id: 33, src: ImgThirtyThree, srcMobile: ImgThirtyThreeMobile },
+  { id: 34, src: ImgThirtyFour, srcMobile: ImgThirtyFourMobile },
+  { id: 35, src: ImgThirtyFive, srcMobile: ImgThirtyFiveMobile },
+  { id: 36, src: ImgThirtySix, srcMobile: ImgThirtySixMobile },
+  { id: 37, src: ImgThirtySeven, srcMobile: ImgThirtySevenMobile },
+  { id: 38, src: ImgThirtyEight, srcMobile: ImgThirtyEightMobile },
+  { id: 39, src: ImgThirtyNine, srcMobile: ImgThirtyNineMobile },
+  { id: 40, src: ImgFourty, srcMobile: ImgFourtyMobile },
+  { id: 41, src: ImgFourtyOne, srcMobile: ImgFourtyOneMobile },
+  { id: 42, src: ImgFourtyTwo, srcMobile: ImgFourtyTwoMobile },
+  { id: 43, src: ImgFourtyThree, srcMobile: ImgFourtyThreeMobile },
+  { id: 44, src: ImgFourtyFour, srcMobile: ImgFourtyFourMobile },
+  { id: 45, src: ImgFourtyFive, srcMobile: ImgFourtyFiveMobile },
+  { id: 46, src: ImgFourtySix, srcMobile: ImgFourtySixMobile },
+  { id: 47, src: ImgFourtySeven, srcMobile: ImgFourtySevenMobile },
+  { id: 48, src: ImgFourtyEight, srcMobile: ImgFourtyEightMobile },
+  { id: 49, src: ImgFourtyNine, srcMobile: ImgFourtyNineMobile },
+  { id: 50, src: ImgFifty, srcMobile: ImgFiftyMobile },
+  { id: 51, src: ImgFiftyOne, srcMobile: ImgFiftyOneMobile },
+  { id: 52, src: ImgFiftyTwo, srcMobile: ImgFiftyTwoMobile },
+  { id: 53, src: ImgFiftyThree, srcMobile: ImgFiftyThreeMobile },
+  { id: 54, src: ImgFiftyFour, srcMobile: ImgFiftyFourMobile },
+  { id: 55, src: ImgFiftyFive, srcMobile: ImgFiftyFiveMobile },
+  { id: 56, src: ImgFiftySix, srcMobile: ImgFiftySixMobile },
+  { id: 57, src: ImgFiftySeven, srcMobile: ImgFiftySevenMobile },
+  { id: 58, src: ImgFiftyEight, srcMobile: ImgFiftyEightMobile },
+  { id: 59, src: ImgFiftyNine, srcMobile: ImgFiftyNineMobile },
+  { id: 60, src: ImgSixty, srcMobile: ImgSixtyMobile },
+  { id: 61, src: ImgSixtyOne, srcMobile: ImgSixtyOneMobile },
+  { id: 62, src: ImgSixtyTwo, srcMobile: ImgSixtyTwoMobile },
+  { id: 63, src: ImgSixtyThree, srcMobile: ImgSixtyThreeMobile },
+  { id: 64, src: ImgSixtyFour, srcMobile: ImgSixtyFourMobile },
+  { id: 65, src: ImgSixtyFive, srcMobile: ImgSixtyFiveMobile },
 ];
 export default GalleryOne;
