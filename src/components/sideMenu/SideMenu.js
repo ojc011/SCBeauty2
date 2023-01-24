@@ -33,7 +33,7 @@ function SideMenu() {
         </h1>
         <NavLink
           className="hover:text-blue-600 smooth-transition text-xl"
-          to="/scbeauty4u"
+          to="/"
           onClick={() => {
             ResetLocation();
             RemoveMenu();
