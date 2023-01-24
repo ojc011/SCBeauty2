@@ -1,5 +1,5 @@
 import React from 'react';
-import PricingTable from './PricingTable.jsx';
+import PricingTable from './PricingTable.js';
 
 function Pricing() {
   return (
