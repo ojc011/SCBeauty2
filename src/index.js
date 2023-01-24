@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 //Components
-import Gallery from './components/Gallery';
-import SideMenu from './components/SideMenu';
+import Gallery from './components/gallery/Gallery';
+import SideMenu from './components/sideMenu/SideMenu';
 import About from './components/About';
-import Pricing from './components/Pricing';
-import Contact from './components/Contact';
+import Pricing from './components/pricing/Pricing';
+import Contact from './components/contact/Contact';
 //Styles
 import './index.css';
 
