@@ -21,7 +21,7 @@
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "/scbeauty4u",
+  "homepage": "./scbeauty4u",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
