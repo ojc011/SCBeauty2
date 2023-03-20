@@ -1,6 +1,6 @@
 import React from 'react';
 import { PricingSlot, PricingDetail } from 'react-pricing-table';
-import PricingPic from '../../images/PricingPic.jpeg';
+import PricingPic from '../../assets/images/PricingPic.jpeg';
 
 export default class Example extends React.Component {
   constructor(props) {
