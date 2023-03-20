@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^7.0.0",
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
     "@tanem/react-nprogress": "^5.0.25",
@@ -12,6 +13,7 @@
     "jquery": "^3.6.3",
     "postcss-flexbugs-fixes": "^5.0.2",
     "react": "^18.2.0",
+    "react-date-picker": "^9.2.0",
     "react-dom": "^18.2.0",
     "react-js-pagination": "^3.0.3",
     "react-pricing-table": "^0.3.0",

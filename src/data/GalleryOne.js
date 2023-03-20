@@ -1,3 +1,23 @@
+import ImgSixtySix from '../images/gallery-one/image-66.jpeg';
+import ImgSixtySeven from '../images/gallery-one/image-67.jpeg';
+import ImgSixtyEight from '../images/gallery-one/image-68.jpeg';
+import ImgSixtyNine from '../images/gallery-one/image-69.jpeg';
+import ImgSeventy from '../images/gallery-one/image-70.jpeg';
+import ImgSeventyOne from '../images/gallery-one/image-71.jpeg';
+import ImgSeventyTwo from '../images/gallery-one/image-72.jpeg';
+import ImgSeventyThree from '../images/gallery-one/image-73.jpeg';
+import ImgSeventyFour from '../images/gallery-one/image-74.jpeg';
+import ImgSeventyFive from '../images/gallery-one/image-75.jpeg';
+import ImgSeventySix from '../images/gallery-one/image-76.jpeg';
+import ImgSeventySeven from '../images/gallery-one/image-77.jpeg';
+import ImgSeventyEight from '../images/gallery-one/image-78.jpeg';
+import ImgSeventyNine from '../images/gallery-one/image-79.jpeg';
+import ImgEighty from '../images/gallery-one/image-80.jpeg';
+import ImgEightyOne from '../images/gallery-one/image-81.jpeg';
+import ImgEightyTwo from '../images/gallery-one/image-82.jpeg';
+import ImgEightyThree from '../images/gallery-one/image-83.jpeg';
+import ImgEightyFour from '../images/gallery-one/image-84.jpeg';
+import ImgEightyFive from '../images/gallery-one/image-85.jpeg';
 import ImgOne from '../images/gallery-one/image-1.jpeg';
 import ImgTwo from '../images/gallery-one/image-2.jpeg';
 import ImgThree from '../images/gallery-one/image-3.jpeg';
@@ -65,6 +85,26 @@ import ImgSixtyFive from '../images/gallery-one/image-65.jpeg';
 
 ////
 
+import ImgSixtySixMobile from '../images/gallery-one/image-66.jpeg';
+import ImgSixtySevenMobile from '../images/gallery-one/image-67.jpeg';
+import ImgSixtyEightMobile from '../images/gallery-one/image-68.jpeg';
+import ImgSixtyNineMobile from '../images/gallery-one/image-69.jpeg';
+import ImgSeventyMobile from '../images/gallery-one/image-70.jpeg';
+import ImgSeventyOneMobile from '../images/gallery-one/image-71.jpeg';
+import ImgSeventyTwoMobile from '../images/gallery-one/image-72.jpeg';
+import ImgSeventyThreeMobile from '../images/gallery-one/image-73.jpeg';
+import ImgSeventyFourMobile from '../images/gallery-one/image-74.jpeg';
+import ImgSeventyFiveMobile from '../images/gallery-one/image-75.jpeg';
+import ImgSeventySixMobile from '../images/gallery-one/image-76.jpeg';
+import ImgSeventySevenMobile from '../images/gallery-one/image-77.jpeg';
+import ImgSeventyEightMobile from '../images/gallery-one/image-78.jpeg';
+import ImgSeventyNineMobile from '../images/gallery-one/image-79.jpeg';
+import ImgEightyMobile from '../images/gallery-one/image-80.jpeg';
+import ImgEightyOneMobile from '../images/gallery-one/image-81.jpeg';
+import ImgEightyTwoMobile from '../images/gallery-one/image-82.jpeg';
+import ImgEightyThreeMobile from '../images/gallery-one/image-83.jpeg';
+import ImgEightyFourMobile from '../images/gallery-one/image-84.jpeg';
+import ImgEightyFiveMobile from '../images/gallery-one/image-85.jpeg';
 import ImgOneMobile from '../images/mobileGallery/image-1.jpeg';
 import ImgTwoMobile from '../images/mobileGallery/image-2.jpeg';
 import ImgThreeMobile from '../images/mobileGallery/image-3.jpeg';
@@ -131,6 +171,26 @@ import ImgSixtyFourMobile from '../images/mobileGallery/image-64.jpeg';
 import ImgSixtyFiveMobile from '../images/mobileGallery/image-65.jpeg';
 
 const GalleryOne = [
+  { id: 66, src: ImgSixtySix, srcMobile: ImgSixtySixMobile },
+  { id: 67, src: ImgSixtySeven, srcMobile: ImgSixtySevenMobile },
+  { id: 68, src: ImgSixtyEight, srcMobile: ImgSixtyEightMobile },
+  { id: 69, src: ImgSixtyNine, srcMobile: ImgSixtyNineMobile },
+  { id: 70, src: ImgSeventy, srcMobile: ImgSeventyMobile },
+  { id: 71, src: ImgSeventyOne, srcMobile: ImgSeventyOneMobile },
+  { id: 72, src: ImgSeventyTwo, srcMobile: ImgSeventyTwoMobile },
+  { id: 73, src: ImgSeventyThree, srcMobile: ImgSeventyThreeMobile },
+  { id: 74, src: ImgSeventyFour, srcMobile: ImgSeventyFourMobile },
+  { id: 75, src: ImgSeventyFive, srcMobile: ImgSeventyFiveMobile },
+  { id: 76, src: ImgSeventySix, srcMobile: ImgSeventySixMobile },
+  { id: 77, src: ImgSeventySeven, srcMobile: ImgSeventySevenMobile },
+  { id: 78, src: ImgSeventyEight, srcMobile: ImgSeventyEightMobile },
+  { id: 79, src: ImgSeventyNine, srcMobile: ImgSeventyNineMobile },
+  { id: 80, src: ImgEighty, srcMobile: ImgEightyMobile },
+  { id: 81, src: ImgEightyOne, srcMobile: ImgEightyOneMobile },
+  { id: 82, src: ImgEightyTwo, srcMobile: ImgEightyTwoMobile },
+  { id: 83, src: ImgEightyThree, srcMobile: ImgEightyThreeMobile },
+  { id: 84, src: ImgEightyFour, srcMobile: ImgEightyFourMobile },
+  { id: 85, src: ImgEightyFive, srcMobile: ImgEightyFiveMobile },
   { id: 1, src: ImgOne, srcMobile: ImgOneMobile },
   { id: 2, src: ImgTwo, srcMobile: ImgTwoMobile },
   { id: 3, src: ImgThree, srcMobile: ImgThreeMobile },

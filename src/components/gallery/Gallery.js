@@ -19,7 +19,7 @@ const Images = ({ imagesToShow }) => {
 };
 
 const MainPage = () => {
-  const imagesPerPage = 10;
+  const imagesPerPage = 15;
   const ImageStorage = [];
   const [imagesToShow, setImagesToShow] = useState([]);
   const [count, setCount] = useState(1);
