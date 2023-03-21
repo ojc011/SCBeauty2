@@ -17,7 +17,6 @@ const Gallery = () => {
   };
 
   useEffect(() => {
-    document.title = 'SC Gallery';
     setEndOffset(itemOffset + 12);
     setcurrentGallery([...GalleryData].slice(itemOffset, endOffset));
   }, [setEndOffset, endOffset, itemOffset]);

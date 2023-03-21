@@ -1,3 +1,14 @@
+import ImgEightySix from '../assets/images/gallery/image-86.jpeg';
+import ImgEightySeven from '../assets/images/gallery/image-87.jpeg';
+import ImgEightyEight from '../assets/images/gallery/image-88.jpeg';
+import ImgEightyNine from '../assets/images/gallery/image-89.jpeg';
+import ImgNinety from '../assets/images/gallery/image-90.jpeg';
+import ImgNinetyOne from '../assets/images/gallery/image-91.jpeg';
+import ImgNinetyTwo from '../assets/images/gallery/image-92.jpeg';
+import ImgNinetyFour from '../assets/images/gallery/image-94.jpeg';
+import ImgNinetyFive from '../assets/images/gallery/image-95.jpeg';
+import ImgNinetySix from '../assets/images/gallery/image-96.jpeg';
+import ImgNinetySeven from '../assets/images/gallery/image-97.jpeg';
 import ImgSixtySix from '../assets/images/gallery/image-66.jpeg';
 import ImgSixtySeven from '../assets/images/gallery/image-67.jpeg';
 import ImgSixtyEight from '../assets/images/gallery/image-68.jpeg';
@@ -84,6 +95,17 @@ import ImgSixtyFour from '../assets/images/gallery/image-64.jpeg';
 import ImgSixtyFive from '../assets/images/gallery/image-65.jpeg';
 
 const GalleryOne = [
+  { id: 86, src: ImgEightySix, alt: '' },
+  { id: 87, src: ImgEightySeven, alt: '' },
+  { id: 88, src: ImgEightyEight, alt: '' },
+  { id: 89, src: ImgEightyNine, alt: '' },
+  { id: 90, src: ImgNinety, alt: '' },
+  { id: 91, src: ImgNinetyOne, alt: '' },
+  { id: 92, src: ImgNinetyTwo, alt: '' },
+  { id: 94, src: ImgNinetyFour, alt: '' },
+  { id: 95, src: ImgNinetyFive, alt: '' },
+  { id: 96, src: ImgNinetySix, alt: '' },
+  { id: 97, src: ImgNinetySeven, alt: '' },
   { id: 66, src: ImgSixtySix, alt: '' },
   { id: 67, src: ImgSixtySeven, alt: '' },
   { id: 68, src: ImgSixtyEight, alt: '' },

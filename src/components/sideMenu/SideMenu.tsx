@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 //Images
 
 import Burger from '../../assets/images/burger-menu.png';
+import Logo from '../../assets/images/SCBEAUTYLOGODARK.png';
 import Socials from './Socials';
 import CSS from 'csstype'
 //Functions
@@ -38,6 +39,9 @@ const SideMenu = () => {
           hiddenMenu ? `` : ` show-menu`
         } flex-col items-center fixed mt-60 text-2xl gap-5 text-slate-600 hidden md:flex`}
       >
+        <section>
+          <img className="max-w-full object-cover" src={Logo} alt=""></img>
+        </section>
         <h1 className="sm:text-xl md:text-3xl text-center uppercase text-black font-light">
           SC<br></br>
           <span className="font-semibold font-namefont">Beauty</span>
