@@ -26,10 +26,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "craco start && postcss src/index.css -o public/index.css",
-    "build": "craco build",
-    "deploy": "gh-pages -d build -r",
-    "test": "craco test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
