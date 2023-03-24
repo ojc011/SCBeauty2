@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //Components
 import Gallery from './components/gallery/Gallery';
 import SideMenu from './components/sideMenu/SideMenu';
-import Blog from './components/pricing/Pricing';
+import Blog from './components/pricing/Pricing.js';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 //Styles

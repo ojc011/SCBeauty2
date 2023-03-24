@@ -1,11 +1,12 @@
-import React from 'react';
 import PricingTable from './PricingTable.js';
+import SideMenuMobile from '../sideMenu/SideMenuMobile';
 
 function Pricing() {
   return (
-    <div>
+    <article className="flex flex-col min-h-screen col-span-2 items-center p-5">
+      <SideMenuMobile/>
       <PricingTable />
-    </div>
+    </article>
   );
 }
 

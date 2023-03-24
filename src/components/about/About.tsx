@@ -1,9 +1,11 @@
 import ImgSixtyFive from '../../assets/images/gallery/image-65.jpeg';
 import ImgTen from '../../assets/images/image-10.jpeg'
+import SideMenuMobile from '../sideMenu/SideMenuMobile';
 
 const About = () => {
   return (
     <article className="flex flex-col min-h-screen col-span-2 items-center p-5">
+      <SideMenuMobile/>
       <section className="flex flex-col items-center mt-20 text-2xl gap-5 text-slate-600">
         <h2 className="text-5xl text-center uppercase text-black">About</h2>
       </section>

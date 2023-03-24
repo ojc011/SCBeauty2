@@ -12,7 +12,7 @@ const activeMenuStyles: CSS.Properties = {
   color: 'rgb(37, 99, 235)',
 };
 
-const SideMenu = () => {
+const SideMenuMobile = () => {
   const [hiddenMenu, setHiddenMenu] = useState<boolean>(true);
   const ref = useRef<HTMLImageElement>(null);
 
@@ -25,15 +25,18 @@ const SideMenu = () => {
   }
 
   return (
-    <header className="SideMenu sm:relative flex flex-col min-h-screen col-span-1 items-center absolute">
-      <img
-        className="burger-icon w-10 fixed cursor-pointer md:hidden z-50 ml-6"
-        onClick={ToggleMenu}
-        ref={ref}
-        src={Burger}
-        alt=""
-        aria-hidden="true"
-      />
+    <header className="SideMenuHide sm:relative flex flex-col col-span-1 items-center absolute">
+      <section className="flex flex-row">
+        <img
+          className="burger-icon w-10 h-10 cursor-pointer md:hidden z-50 ml-6 mr-6"
+          onClick={ToggleMenu}
+          ref={ref}
+          src={Burger}
+          alt=""
+          aria-hidden="true"
+        />
+        <img className="max-w-full w-20 h-20" src={Logo} alt=""></img>
+      </section>
       <nav
         className={`main-menu${
           hiddenMenu ? `` : ` show-menu`
@@ -42,7 +45,7 @@ const SideMenu = () => {
         <section>
           <img className="max-w-full object-cover" src={Logo} alt=""></img>
         </section>
-        <h1 className="sm:text-xl md:text-3xl text-center uppercase text-black font-light">
+        <h1 className="SideMenuHide sm:text-xl md:text-3xl text-center uppercase text-black font-light">
           SC<br></br>
           <span className="font-semibold font-namefont">Beauty</span>
         </h1>
@@ -113,4 +116,4 @@ const SideMenu = () => {
   );
 };
 
-export default SideMenu;
+export default SideMenuMobile;
