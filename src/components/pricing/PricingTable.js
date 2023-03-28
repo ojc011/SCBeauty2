@@ -10,8 +10,8 @@ export default class Example extends React.Component {
 
   render() {
     return (
-      <section className="flex flex-col items-center mt-20 text-2xl gap-5 text-slate-600">
-        <section className="flex flex-col items-center mt-2 font-titlefont text-2xl gap-5 text-slate-600">
+      <section className="flex flex-col items-center mt-10 text-2xl gap-5 text-slate-600">
+        <section className="flex flex-col items-center mt-5 font-titlefont text-2xl gap-5 text-slate-600">
             <PricingSlot title="Bridal">
               <PricingDetail>
                 Day of Bridal Hair - <b>$105</b>

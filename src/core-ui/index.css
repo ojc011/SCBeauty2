@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -103,7 +103,7 @@
     color: rgb(37, 99, 235);
   }
   .card-zoom {
-    @apply relative flex items-center justify-center m-3 overflow-hidden  h-60 rounded-2xl sm:w-52 md:w-60 lg:w-72;
+    @apply relative flex items-center justify-center m-3 overflow-hidden h-60 rounded-2xl sm:w-52 md:w-60 lg:w-72;
   }
   .card-zoom-image {
     @apply absolute w-full h-full transition-all duration-500 ease-in-out transform shadow-sm cursor-pointer object-cover object-center;
@@ -124,8 +124,14 @@
   }
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
   .SideMenu {
     display: none;
   }
+}
+
+@media (max-width: 375px){
+ .card-zoom {
+    width: 13rem;
+}
 }

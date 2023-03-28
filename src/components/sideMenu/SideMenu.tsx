@@ -25,7 +25,7 @@ const SideMenu = () => {
   }
 
   return (
-    <header className="SideMenu sm:relative flex flex-col min-h-screen col-span-1 items-center absolute">
+    <header className="SideMenu sm:relative md:flex lg:flex flex-col col-span-1 items-center absolute">
       <img
         className="burger-icon w-10 fixed cursor-pointer md:hidden z-50 ml-6"
         onClick={ToggleMenu}
@@ -37,7 +37,7 @@ const SideMenu = () => {
       <nav
         className={`main-menu${
           hiddenMenu ? `` : ` show-menu`
-        } flex-col items-center fixed mt-60 text-2xl gap-5 text-slate-600 hidden md:flex`}
+        } flex-col items-center fixed mt-10 text-2xl gap-5 text-slate-600 hidden md:flex`}
       >
         <section>
           <img className="max-w-full object-cover" src={Logo} alt=""></img>
