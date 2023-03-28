@@ -48,11 +48,19 @@ const ContactForm = () => {
         />
       </div>
       <div className="mb-3 pt-0">
+        <input
+          type="phone"
+          placeholder="Phone number"
+          name="phone"
+          className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+          required
+        />
+      </div>
+      <div className="mb-3 pt-0">
         <textarea
           placeholder="Venue"
           name="venue"
           className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-          required
         />
       </div>
       <div className="mb-3 pt-0">

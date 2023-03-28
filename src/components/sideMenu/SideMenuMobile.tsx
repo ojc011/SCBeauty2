@@ -26,7 +26,8 @@ const SideMenuMobile = () => {
 
   return (
     <header className="SideMenuHide sm:relative flex flex-col col-span-1 items-center absolute">
-      <section className="flex flex-row">
+      <section className="LogoBurgerContainer flex flex-row">
+        <img className="max-w-full w-20 h-20" src={Logo} alt=""></img>
         <img
           className="burger-icon w-10 h-10 cursor-pointer md:hidden z-50 ml-6 mr-6"
           onClick={ToggleMenu}
@@ -35,7 +36,6 @@ const SideMenuMobile = () => {
           alt=""
           aria-hidden="true"
         />
-        <img className="max-w-full w-20 h-20" src={Logo} alt=""></img>
       </section>
       <nav
         className={`main-menu${

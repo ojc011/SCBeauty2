@@ -111,6 +111,13 @@
   .card-zoom:hover .card-zoom-image {
     @apply scale-150;
   }
+
+  .LogoBurgerContainer {
+    align-items: center;
+    border-bottom: 1mm solid #e2fcfc;
+    margin-top: 5px;
+    padding-bottom: 2px;
+  }
 }
 @media screen and (max-width: 640px) {
   ul.pagination {
