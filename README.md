@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# SCBeauty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SCBeauty is a web application that helps users find and book beauty services online. The platform is designed to make the booking process seamless, allowing users to browse services, select their preferred provider, and book an appointment in just a few clicks. 
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Summary](#summary)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Summary
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+SCBeauty is a modern web application built using TypeScript, a typed superset of JavaScript that adds additional features to the language to improve code quality and maintainability. TypeScript is used throughout the project to ensure type safety and reduce errors. The front-end of the application is built with React.js, a popular JavaScript library used for building user interfaces. React.js is used to create components that make up the application's user interface. These components are written in a combination of TypeScript, JavaScript, CSS, and HTML. TypeScript is used to define the props and state of each component, while JavaScript is used to handle logic and events. CSS is used to style the components, and HTML is used to structure the content. The back-end of the application is built with Node.js, a popular JavaScript runtime built on the V8 engine. Node.js is used in conjunction with Express, a lightweight web framework for Node.js, to handle incoming requests and serve data from the database. Overall, SCBeauty2 leverages a combination of technologies and programming languages to create a fast, scalable, and user-friendly web application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+SCBeauty2 has a variety of features to make the booking process as smooth as possible:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Browse photography portfolio of scbeauty's clients
+- Browse and filter services by category, provider, or location
+- View service details, including price, duration, and provider information
+- Book an appointment with a preferred provider
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To install and run SCBeauty2 locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``git clone https://github.com/ojc011/SCBeauty2.git``
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+``cd SCBeauty2``
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+``npm install``
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Create a `.env` file based on the provided `.env.example` file, and update the values to match your environment
+5. Start the development server:
 
-## Learn More
+``npm start``
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+Once the development server is running, you can access the application by navigating to `http://localhost:3000` in your web browser. From there, you can browse services, book appointments, and manage your account.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions to SCBeauty2 are welcome! If you find a bug or have an idea for a new feature, please open an issue or submit a pull request. Before contributing, please review our [contribution guidelines](CONTRIBUTING.md).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
