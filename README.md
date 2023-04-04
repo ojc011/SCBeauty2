@@ -2,6 +2,8 @@
 
 SCBeauty is a web application that helps users find and book beauty services online. The platform is designed to make the booking process seamless, allowing users to browse services, select their preferred provider, and book an appointment in just a few clicks. 
 
+![App Homepage](https://github.com/ojc011/SCBeauty2/blob/main/src/assets/images/homepageimg.png)
+
 ## Table of Contents
 
 - [Summary](#summary)
