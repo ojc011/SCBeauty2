@@ -19,29 +19,6 @@ const BridalPricing = () => {
       </PricingDetail>
       <br />
       <PricingDetail>
-        <b>Natural Beauty $450</b>
-        <h1>Day of Hair + Airbrush Makeup + Trial</h1>
-        <ul>
-          <h3>Under-eye de-puffing patches</h3>
-          <h3>Airbrush of face, chest, and back if needed</h3>
-          <h3>Individual lashes</h3>
-        </ul>
-      </PricingDetail>
-      <br />
-      <PricingDetail>
-        <b>Royal Beauty $510</b>
-        <h1>Day of Hair + Airbrush Makeup + Trial</h1>
-        <ul>
-          <h3>Day of Skincare</h3>
-          <h3>Lumifying Eye Drops</h3>
-          <h3>Under-eye de-puffing patches</h3>
-          <h3>10 minute Shoulder, neck and scalp massage</h3>
-          <h3>Airbrush (face, chest, back if needed)</h3>
-          <h3>Individual Lashes</h3>
-        </ul>
-      </PricingDetail>
-      <br />
-      <PricingDetail>
         <h3>
           <b>Day of Bridesmaid/Family Hair: $95</b>
         </h3>
