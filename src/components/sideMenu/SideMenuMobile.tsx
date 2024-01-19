@@ -110,7 +110,7 @@ const SideMenuMobile = () => {
           Contact
         </NavLink>
         <Socials />
-        <a>&copy; 2022 by SC Beauty</a>
+        <a>&copy; 2024 by SC Beauty</a>
       </nav>
     </header>
   );
